@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<!--CSS-->
+<link rel="stylesheet" href="assets\css\icomoon.css" />
+<link rel="stylesheet" href="assets\css\slick-theme.css" />
+<link rel="stylesheet" href="assets\css\slick.css" />
+<link rel="stylesheet" href="assets\css\style.css" />
+<link rel="stylesheet" href="assets\css\style_sp.css"/>
+
+<!--js-->
+<script type="text/javascript" src="assets\js\jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="assets\js\slick.min.js"></script>
+<script type="text/javascript" src="assets\js\main.js"></script>
+
+<head>
+  <html lang="ja"></html>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>株式会社ウェブ力</title>
+</head>
+
+<body>
+  <div class="top">
+    <header class="header">
+      <a href="index.html">
+        <img class="img-logo" src="images\logo.png" alt="logo.png"/>
+      </a>
+      <div class="menu">
+        <a class="menu-company" href="/company.html">Company</a>
+        <a class="menu-service" href="/service.html">Service</a>
+        <a class="menu-contact" href="/contact.html">Contact</a>
+      </div>
+    </header>
+
+    <div class="SectionTitle-contact">
+      <div class="SectionTitle-contact-text">Contact</div>
+    </div>
+
+    <div class="ContactCard">
+          <ul>
+          <li><div class="shimei"><p class="shimei-p">氏名</p><p class="LabelRequired">*</p><input type="text" value="苗字　名前"></div></li>
+          <li><div class="hypertext"><p class="hypertext-text">入力必須項目です。</p></li>
+          <li><div class="kisyamei"><p class="kisyamei-p">貴社名</p><input type="text" value="株式会社ウェブ力"></div></li>
+          <li><div class="denwa"><p class="denwa-p">電話番号</p><input type="number" value="0312345678"></div></li>
+          <li><div class="email"><p class="email-p">メールアドレス</p><div class="LabelRequired"><p>*</p></div><input type="email" value="sample@mail.com"></div></li>
+          <li><div class="mokuteki"><p class="mokuteki-p">目的</p>
+              <select name="mokuteki">
+                <option value="仕事のご依頼">仕事のご依頼</option>
+                <option value="ビジネスパートナー">ビジネスパートナー</option>
+                <option value="その他">その他</option></select></li>
+          <li><div class="renraku"><p class="renraku-p">連絡方法</p>
+            <input type="radio" name="renraku" value="メール"><label for="mail">メール</label>
+            <input type="radio" name="renraku" value="電話"><label for="denwa">電話</label></div></li>
+          <li><div class="kiboubi"><p class="kiboubi-p">打合せ希望日</p><p class="LabelRequired">*</p>
+            <input type="date" name="day" value="yyyy-mm-dd" id="data-input"></div></li>
+          <li><div class="honbun"><p class="honbun-p">本文</p><p class="LabelRequired">*</p><input type="text" value="メッセージ"></div></li>
+          <li><div class="tempfile"><p class="tempfile-p">添付ファイル</p><input type="file" ></div></li>
+        </ul>
+        <div class="Confirm">
+         <input type="checkbox" name="policy"><p>プライバシーポリシーに同意する</p>
+        </div>
+        <div class="Buttan">
+         <input type="button" value="Confirm">
+        </div></div>
+    </div>
+
+         <div class="privacyPolicy">
+          <h1 class="privacyPolicy-title">プライバシーポリシー</h1>
+           <div class="privacyPolicy-Contents">
+           <p class="privacyPolicy-OverView">株式会社ウェブカ（以下「当社」といいます）は、お客様に関する個人情報の取扱いについて以下の方針を基に個人情報の保護を実施して参ります。</p>
+            <ol class="privacyPolicy-item">
+            <li><p class="privacyPolicy-item-title">利用目的の範囲内での利用</p>
+            <p>当社は、個人情報（特定の個人を識別できるもの。以下も同様とします。）を取り扱う際に、個人情報の保護に関する法律をはじめ個人情報保護に関する諸法令、および主務大臣のガイドラインに定められた義務、ならびに本方針を遵守します。</p></li>
+            <li><p>個人情報の取得</p>
+            <p>当社は、あらかじめご本人の同意を得た場合、および法令により認められた場合を除き、あらかじめ特定された利用目的の達成に必要な範囲内でのみ個人情報を取り扱います。</p></li>
+            <li><p>安全管理措置</p>
+            <p>当社は、あらかじめ利用目的、共同利用者の範囲、お問い合わせ窓口等の必要な情報を明示し、ご本人の同意を得たうえで個人情報を取得するよう努めます。</p></li>
+            <li><p>第三者への提供</p>
+            <p>当社は、個人情報への不正アクセス、個人情報の漏えい、滅失又はき損の予防及び是正、その他の安全管理のため必要かつ適切な措置を講じます。</p></li>
+            <li><p>ご意見・ご相談への対応</p>
+            <p>当社は、法令により認められた場合を除き、ご本人の同意を得ることなく、第三者に個人情報を提供しません。</p></li>
+            <li><p>社内体制の継続的改善</p>
+            <p>当社は、個人情報の開示、訂正、利用の停止、消去その他の個人情報の取り扱いに関するご意見やお問い合わせに対し、法令の規定に基づき、適切に対応いたします。</p></li>
+            <li><p>個人情報取り扱い</p>
+            <p>当社は、個人情報の取扱いに関する教育啓発活動を全役員及び従業員に実施し、個人情報保護マネジメントシステムを継続的に見直し、その改善をします。</p></li></ol>
+        </div></div>
+
+    <footer class="footer">
+          <div class="footer-menu1">
+          <div class="site-map">Site Map
+            <line></line>
+          </div>
+          <a class="footer-menu-top" href="index.html">Top</a>
+          <a class="footer-menu-company" href="company.html">Company</a>
+          <a class="footer-menu-service" href="service.html">Service</a>
+          <a Class="footer-menu-contact" href="contact.html">Contact</a>
+        </div>
+        <div class="footer-menu2">
+          <div class="sns">SNS</div>
+          <div class="twitter">
+            <svg class="twitter-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" >
+              <path d="M22,5.8a8.49,8.49,0,0,1-2.36.64,4.13,4.13,0,0,0,1.81-2.27,8.21,8.21,0,0,1-2.61,1,4.1,4.1,0,0,0-7,3.74A11.64,11.64,0,0,1,3.39,4.62a4.16,4.16,0,0,0-.55,2.07A4.09,4.09,0,0,0,4.66,10.1,4.05,4.05,0,0,1,2.8,9.59v.05a4.1,4.1,0,0,0,3.3,4A3.93,3.93,0,0,1,5,13.81a4.9,4.9,0,0,1-.77-.07,4.11,4.11,0,0,0,3.83,2.84A8.22,8.22,0,0,1,3,18.34a7.93,7.93,0,0,1-1-.06,11.57,11.57,0,0,0,6.29,1.85A11.59,11.59,0,0,0,20,8.45c0-.17,0-.35,0-.53A8.43,8.43,0,0,0,22,5.8Z" style="fill: rgb(255, 252, 252);"></path>
+            </svg>
+            <a class="twitter-text" href="https://www.twitter.com/">Twitter</a>
+          </div>
+          <div class="facebook">
+            <svg class="facebook-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M14,6h3a1,1,0,0,0,1-1V3a1,1,0,0,0-1-1H14A5,5,0,0,0,9,7v3H7a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1H9v7a1,1,0,0,0,1,1h2a1,1,0,0,0,1-1V14h2.22a1,1,0,0,0,1-.76l.5-2a1,1,0,0,0-1-1.24H13V7A1,1,0,0,1,14,6Z" style="fill: rgb(255, 252, 252);"></path>
+            </svg>
+            <a class="facebook-text" href="https://www.facebook.com/">Facebook</a>
+          </div>
+          <div class="instagram">
+            <svg class="instagram-icon" xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24">
+              <path d="M17.34,5.46h0a1.2,1.2,0,1,0,1.2,1.2A1.2,1.2,0,0,0,17.34,5.46Zm4.6,2.42a7.59,7.59,0,0,0-.46-2.43,4.94,4.94,0,0,0-1.16-1.77,4.7,4.7,0,0,0-1.77-1.15,7.3,7.3,0,0,0-2.43-.47C15.06,2,14.72,2,12,2s-3.06,0-4.12.06a7.3,7.3,0,0,0-2.43.47A4.78,4.78,0,0,0,3.68,3.68,4.7,4.7,0,0,0,2.53,5.45a7.3,7.3,0,0,0-.47,2.43C2,8.94,2,9.28,2,12s0,3.06.06,4.12a7.3,7.3,0,0,0,.47,2.43,4.7,4.7,0,0,0,1.15,1.77,4.78,4.78,0,0,0,1.77,1.15,7.3,7.3,0,0,0,2.43.47C8.94,22,9.28,22,12,22s3.06,0,4.12-.06a7.3,7.3,0,0,0,2.43-.47,4.7,4.7,0,0,0,1.77-1.15,4.85,4.85,0,0,0,1.16-1.77,7.59,7.59,0,0,0,.46-2.43c0-1.06.06-1.4.06-4.12S22,8.94,21.94,7.88ZM20.14,16a5.61,5.61,0,0,1-.34,1.86,3.06,3.06,0,0,1-.75,1.15,3.19,3.19,0,0,1-1.15.75,5.61,5.61,0,0,1-1.86.34c-1,.05-1.37.06-4,.06s-3,0-4-.06A5.73,5.73,0,0,1,6.1,19.8,3.27,3.27,0,0,1,5,19.05a3,3,0,0,1-.74-1.15A5.54,5.54,0,0,1,3.86,16c0-1-.06-1.37-.06-4s0-3,.06-4A5.54,5.54,0,0,1,4.21,6.1,3,3,0,0,1,5,5,3.14,3.14,0,0,1,6.1,4.2,5.73,5.73,0,0,1,8,3.86c1,0,1.37-.06,4-.06s3,0,4,.06a5.61,5.61,0,0,1,1.86.34A3.06,3.06,0,0,1,19.05,5,3.06,3.06,0,0,1,19.8,6.1,5.61,5.61,0,0,1,20.14,8c.05,1,.06,1.37.06,4S20.19,15,20.14,16ZM12,6.87A5.13,5.13,0,1,0,17.14,12,5.12,5.12,0,0,0,12,6.87Zm0,8.46A3.33,3.33,0,1,1,15.33,12,3.33,3.33,0,0,1,12,15.33Z" style="fill: rgb(255, 252, 252);"></path>
+            </svg>
+            <a class="instagram-text" href="https://www.instagram.com/">Instagram</a>
+          </div>
+        </div>
+        <p class="kaihatu">(c)2021 開発事業部-Web課 All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
+  
