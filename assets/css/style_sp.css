@@ -12,7 +12,6 @@
     min-width: 100vw;
     margin: 0;
     font-family: Roboto;
-    overflow: hidden;
   }
 
   .header {
@@ -77,6 +76,7 @@
     height: 32px;
     top: 20px;
     left: 308px;
+    overflow: hidden;
   }
   .menu-sheet {
     width: 360px;
@@ -686,6 +686,7 @@
     line-height: 14px;
     letter-spacing: 0em;
     text-align: left;
-    background: #ffffff;
+    color: #ffffff;
+    position: absolute;
   }
 }
